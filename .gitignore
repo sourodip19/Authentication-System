@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -137,3 +138,27 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Operating System junk files
+.DS_Store # macOS files
+Thumbs.db # Windows files
+
+# Dependencies
+node_modules/ # Node.js package manager folder
+*.pyc # Python compiled files
+/target/ # Java compiled files directory
+build/ # Common build output directory
+dist/ # Common distribution output directory
+
+# Environment variables and sensitive data
+.env # Environment variable files
+api_keys.txt # Specific file with sensitive data
+
+# Editor/IDE-specific files
+.vscode/ # VS Code settings folder
+.idea/ # IntelliJ IDE settings folder
+*.sublime-workspace # Sublime Text workspace files
+
+# Log and temporary files
+*.log # All files with .log extension
+/tmp # Temporary directory in the root
